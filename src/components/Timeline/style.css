@@ -1,0 +1,66 @@
+.each-quarter-range:first-of-type .month-bar:first-of-type li.project-bubble-up:first-of-type div.tooltip-box {
+    left: -42px;
+}
+
+.each-quarter-range:first-of-type .month-bar:first-of-type li.project-bubble-up div.tooltip-box:hover {
+    left: -42px !important;
+}
+
+.each-quarter-range:first-of-type .month-bar:first-of-type li.project-bubble-down:first-of-type div.tooltip-box {
+    left: -60px;
+}
+
+.each-quarter-range:first-of-type .month-bar:first-of-type li.project-bubble-up:first-of-type div.tooltip-box:hover {
+    left: 10px !important;
+}
+
+.each-quarter-range:first-of-type .month-bar:first-of-type li.project-bubble-down:first-of-type div.tooltip-box:hover {
+    left: -50px !important;
+}
+
+.each-quarter-range:last-of-type .month-bar:last-of-type li.project-bubble-up:nth-of-type(5) div.tooltip-box:hover {
+    left: -200px !important;
+}
+
+.each-quarter-range:last-of-type .month-bar:last-of-type li.project-bubble-up:nth-of-type(3) div.tooltip-box:hover {
+    left: -140px !important;
+}
+
+.each-quarter-range:last-of-type .month-bar:last-of-type li.project-bubble-down:nth-of-type(6) div.tooltip-box:hover {
+    left: -220px !important;
+}
+
+.each-quarter-range:last-of-type .month-bar:last-of-type li.project-bubble-down:nth-of-type(6) div.tooltip-box {
+    left: -150px !important;
+}
+
+.each-quarter-range:last-of-type .month-bar:last-of-type li.project-bubble-down:nth-of-type(4) div.tooltip-box:hover {
+    left: -180px !important;
+}
+
+.each-quarter-range:last-of-type .month-bar:last-of-type li.project-bubble-up:nth-of-type(3) div.tooltip-box {
+    left: -130px !important;
+}
+
+.each-quarter-range:last-of-type .month-bar:last-of-type li.project-bubble-down:nth-of-type(4) div.tooltip-box {
+    left: -150px !important;
+}
+
+.each-quarter-range:last-of-type .month-bar:last-of-type li.project-bubble-up:nth-of-type(5) div.tooltip-box {
+    left: -130px !important;
+}
+
+.each-quarter-range:first-of-type .month-bar:first-of-type li.project-bubble-down:nth-of-type(2) div.tooltip-box {
+    left: -60px !important;
+}
+
+.each-quarter-range:first-of-type .month-bar:first-of-type li.project-bubble-down:nth-of-type(2) div.tooltip-box:hover {
+    left: -15px !important;
+}
+
+.each-quarter-range:first-of-type .month-bar:first-of-type li.project-bubble-down:nth-of-type(4) div.tooltip-box {
+    left: -100px !important;
+}
+.each-quarter-range:first-of-type .month-bar:first-of-type li.project-bubble-down:nth-of-type(4) div.tooltip-box:hover {
+    left: -70px !important;
+}

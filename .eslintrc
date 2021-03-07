@@ -1,0 +1,40 @@
+{
+    "extends": [
+        "airbnb-standard"
+    ],
+    "rules": {
+        "arrow-body-style": "off",
+        "quotes": [
+            2,
+            "single"
+        ],
+        "no-plusplus": "off",
+        "padded-blocks": "off",
+        "semi": [
+            "error",
+            "never"
+        ],
+        "space-before-function-paren": [
+            "error",
+            "never"
+        ],
+        "jsx-a11y/anchor-is-valid": [
+            "error",
+            {
+                "components": [
+                    "Link"
+                ],
+                "specialLink": [
+                    "to"
+                ]
+            }
+        ],
+    },
+    "plugins": [
+        "react"
+    ],
+    "env": {
+        "browser": true
+    },
+    "parser": "babel-eslint"
+}

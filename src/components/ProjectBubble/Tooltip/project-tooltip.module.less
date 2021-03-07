@@ -1,0 +1,142 @@
+.tooltipBox {
+    position        : absolute;
+    cursor          : pointer;
+    height          : 90px;
+    width           : 160px;
+    padding         : 2px 3px;
+    border          : 2px solid #3c3d47;
+    color           : #3c3d47;
+    font-size       : 12px;
+    background-color: #ffffff;
+    overflow        : hidden !important;
+    text-overflow   : ellipsis !important;
+    white-space     : nowrap !important;
+    box-shadow      : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index         : 15;
+
+    .businessValueBar {
+        max-width: 42%;
+        float    : left;
+
+        li {
+            margin-top: 2px;
+            display   : block;
+            position  : inherit;
+        }
+    }
+
+    .releaseInfoBar {
+        padding-left   : 0;
+        margin-top     : 2px;
+        justify-content: flex-start;
+        font-size      : 10px;
+        text-align     : left;
+        display        : grid;
+
+        li {
+            display : block;
+            position: inherit;
+
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+
+    .rectangle {
+        text-align      : center;
+        font-size       : 10px;
+        font-weight     : bold;
+        border          : 1px solid #c7c7ca !important;
+        border-radius   : 3px;
+        padding         : 1px 3px;
+        margin-left     : 0.25rem;
+        background-color: #ffffff;
+        box-shadow      : none !important;
+    }
+
+    .projectName {
+        overflow     : hidden !important;
+        text-overflow: ellipsis !important;
+        white-space  : nowrap !important;
+    }
+
+    p.desc {
+        color        : #444448;
+        opacity      : 0.9;
+        overflow     : hidden !important;
+        text-overflow: ellipsis !important;
+        white-space  : nowrap !important;
+        font-size    : 11px;
+    }
+
+    .viewMore {
+        display: none;
+    }
+
+    &:hover {
+        transform: scale(1.4);
+        width    : 180px !important;
+        z-index  : 101;
+        height   : auto;
+        min-height: 90px;
+
+        .projectName,
+        p.desc {
+            white-space: normal !important;
+        }
+
+        .viewMore {
+            display   : block;
+            font-size : 10px;
+            text-align: center;
+
+            a {
+                color      : #0779e4;
+                font-weight: bold;
+                cursor     : pointer !important;
+            }
+        }
+    }
+}
+
+.tooltipBoxTop {
+    margin-top: -90px;
+    left      : -80px;
+}
+
+.tooltipBoxBottom {
+    left: -115px;
+}
+
+.highPriority.tooltipBoxBottom {
+    margin-top: 380px;
+}
+
+.mediumPriority.tooltipBoxBottom {
+    margin-top: 245px;
+}
+
+.lowPriority.tooltipBoxBottom {
+    margin-top: 112px;
+}
+
+.blue {
+    background-color: #cfecff !important;
+    border          : 2px solid #3282b8 !important;
+}
+
+.purple {
+    background-color: #c3aed6 !important;
+    border          : 2px solid #6f4a8e !important;
+}
+
+.orange {
+    background-color: #edcfa9 !important;
+    border          : 2px solid #f37121 !important;
+}
+
+.yellow {
+    background-color: #fcffe0 !important;
+    border          : 2px solid #fbd46d !important;
+}

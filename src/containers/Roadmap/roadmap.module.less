@@ -1,0 +1,100 @@
+.topSection {
+    padding: 5px;
+}
+
+.prev {
+    position          : absolute;
+    top               : 86px;
+    right             : -48px;
+    margin-right      : 48px;
+    font              : 2.8em "controls";
+    z-index           : 60;
+    color             : #fff;
+    background-color  : #3f51b5;
+    overflow          : hidden;
+    width             : 40px;
+    height            : 30px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition   : all 0.4s ease;
+    -o-transition     : all 0.4s ease;
+    transition        : all 0.4s ease;
+    text-decoration   : none;
+    outline           : none;
+    border            : 3px solid #3f51b5;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #3f51b5;
+
+        .arrowBackIcon {
+            color                    : #fff;
+            font-size                : 2.8rem;
+            animation-duration       : 0.3s;
+            animation-timing-function: ease;
+            animation-delay          : 0s;
+            animation-iteration-count: 1;
+            animation-direction      : normal;
+            animation-fill-mode      : forwards;
+            animation-play-state     : running;
+            animation-name           : prevArrow;
+        }
+    }
+
+    .arrowBackIcon {
+        font-weight: bold;
+        color      : #fff;
+        height     : 0.75em;
+        margin-top : -36px;
+    }
+}
+
+.sideMenu {
+    position: absolute !important;
+    top     : 92px;
+    left    : 83.5%;
+}
+
+@-webkit-keyframes prevArrow {
+    49% {
+        -webkit-transform: translate(-100%);
+    }
+
+    50% {
+        opacity          : 0;
+        -webkit-transform: translate(100%);
+    }
+
+    51% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes prevArrow {
+    49% {
+        -moz-transform: translate(-100%);
+    }
+
+    50% {
+        opacity       : 0;
+        -moz-transform: translate(100%);
+    }
+
+    51% {
+        opacity: 1;
+    }
+}
+
+@keyframes prevArrow {
+    49% {
+        transform: translate(-100%);
+    }
+
+    50% {
+        opacity  : 0;
+        transform: translate(100%);
+    }
+
+    51% {
+        opacity: 1;
+    }
+}
