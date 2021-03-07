@@ -12,4 +12,4 @@ Project Timeline is an experimental POC for Project Managers, Leaders to drive t
 [Sample_Project_Metrics.zip](https://github.com/sjshank/Project-Timeline/files/6097486/Sample_Project_Metrics.zip)
 
 
-## Note : Follow Excel Guidelines while feeding data into sheet or else application will break.
+## Note : Follow Excel Guidelines while feeding data into sheet or else application breakdown.
