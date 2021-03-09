@@ -13,3 +13,19 @@ Project Timeline is an experimental POC for Project Managers, Leaders to drive t
 
 
 ## Note : Follow Excel Guidelines while feeding data into sheet or else application breakdown.
+
+
+# DEMO
+
+![captured](https://user-images.githubusercontent.com/17022643/110471391-18261a00-8102-11eb-9aaf-ec4fe6474f4c.gif)
+
+
+
+### How ro run locally ?
+  * Git clone
+  * npm start
+  * In Chrome, http://localhost:3001
+
+
+#### Note : Project does not support responsive behavior. Only supports large devices 1204px+
+ 
