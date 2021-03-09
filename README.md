@@ -21,7 +21,7 @@ Project Timeline is an experimental POC for Project Managers, Leaders to drive t
 
 
 
-### How ro run locally ?
+### How to run locally ?
   * Git clone
   * npm start
   * In Chrome, http://localhost:3001
